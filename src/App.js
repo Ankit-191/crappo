@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Hero from "./components/Hero";
+import Chosecrypto from "./components/Chosecrypto";
+import Earn from "./components/Earn";
+import Cryptocurrencies from "./components/Cryptocurrencies";
+import Market from "./components/Market";
+import Startming from "./components/Startming";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <Chosecrypto />
+      <Earn />
+      <Cryptocurrencies />
+      <Market/>
+      <Startming/>
+      <Footer/>
+    </>
   );
 }
 
