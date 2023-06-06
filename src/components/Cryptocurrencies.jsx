@@ -73,7 +73,7 @@ const Cryptocurrencies = () => {
             </p>
           </div>
           <div className="h_216 mb-5"></div>
-          <p className="ff_rubik fw_700 fs_4xl clr_black text-center my-5">
+          <p className="ff_rubik fw_700 fs_4xl clr_black text-center my-lg-5">
             Trade securely and market the high growth cryptocurrencies.
           </p>
           {/* <Row className="pb-lg-5">

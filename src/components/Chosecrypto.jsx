@@ -9,11 +9,11 @@ import Btnblue from "./Btnblue";
 const Chosecrypto = () => {
   return (
     <>
-      <section className="bg_black position-relative crappoafter py-5 overflow-hidden">
+      <section className="bg_black position-relative crappoafter py-lg-5 pt-5 overflow-hidden">
         <Container>
-          <Row className="py-5">
+          <Row className="py-lg-5">
             <Col md={6} lg={4}>
-              <div className="d-flex gap-4">
+              <div className="d-flex gap-4 mt-3 mt-md-0">
                 <img src={DigitalCurrency} alt="Digital Currency Exchanged" />
                 <div>
                   <p className="ff_rubik fw_700 fs_4xl text-white mb-1">$30B</p>
@@ -24,7 +24,7 @@ const Chosecrypto = () => {
               </div>
             </Col>
             <Col md={6} lg={4}>
-              <div className="d-flex gap-4">
+              <div className="d-flex gap-4 mt-3 mt-md-0">
                 <img src={Wallets} alt="Digital Currency Exchanged" />
                 <div>
                   <p className="ff_rubik fw_700 fs_4xl text-white mb-1">10M+</p>
@@ -35,7 +35,7 @@ const Chosecrypto = () => {
               </div>
             </Col>
             <Col md={12} lg={4}>
-              <div className="d-flex gap-4">
+              <div className="d-flex gap-4 mt-3 mt-md-0">
                 <img src={Supported} alt="Digital Currency Exchanged" />
                 <div>
                   <p className="ff_rubik fw_700 fs_4xl text-white mb-1">195</p>
@@ -46,17 +46,17 @@ const Chosecrypto = () => {
               </div>
             </Col>
           </Row>
-          <Row className="py-5 mt-lg-5 flex-column-reverse flex-lg-row">
+          <Row className="py-lg-5 py-3 mt-xl-5 flex-column-reverse flex-lg-row">
             <Col lg={6}>
               <div className="crappobefore pe-lg-5 mt-5 mt-lg-0 text-center">
                 <img src={CRAPPO} alt="CRAPPO" className="w_100" />
               </div>
             </Col>
             <Col lg={6} className="ps-lg-5">
-              <p className="ff_rubik fw_700 fs_4xl text-white mb-3">
+              <p className="ff_rubik fw_700 fs_4xl text-white mb-2 mb-md-3">
                 Why you should choose CRAPPO
               </p>
-              <p className="ff_rubik fw_400 fs_base clr_gray mb-4 pb-3 mw_400">
+              <p className="ff_rubik fw_400 fs_base clr_gray mb-4 pb-md-3 mw_400">
                 Experience the next generation cryptocurrency platform. No
                 financial borders, extra fees, and fake reviews.
               </p>

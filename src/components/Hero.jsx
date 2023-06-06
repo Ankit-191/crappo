@@ -11,25 +11,25 @@ const Hero = () => {
           <div className="d-xl-flex flex-column h_100vh">
             <Header />
             <div className="flex-grow-1">
-              <Row className="align-items-center h_100 pb-5">
+              <Row className="align-items-center h_100 pb-lg-5">
                 <Col lg={6}>
-                  <button className="ff_rubik fw_400 fs_base text-white border-0 rounded-pill pe-2 px-1 py-1 bg_lightblack mb-4">
+                  <button className="ff_rubik fw_400 fs_base text-white border-0 rounded-pill pe-2 px-1 py-1 bg_lightblack mb-lg-4 mb-2">
                     <button className="ff_rubik fw_400 fs_base text-black border-0 py-1 px-3 rounded-pill me-3">
                       75% SAVE
                     </button>
                     For the Black Friday weekend
                   </button>
-                  <p className="ff_rubik fw_700 fs_6xl text-white mb-4">
+                  <p className="ff_rubik fw_700 fs_6xl text-white mb-lg-4 mb-2">
                     Fastest & secure platform to invest in crypto
                   </p>
-                  <p className="ff_rubik fw_400 fs_base clr_gray mw_400 mb-4">
+                  <p className="ff_rubik fw_400 fs_base clr_gray mw_400  mb-lg-4 mb-2">
                     Buy and sell cryptocurrencies, trusted by 10M wallets with
                     over $30 billion in transactions.
                   </p>
-                  <button className="ff_rubik fw_500 fs_md text-white bg_blue border-0 py-3 px-4 mt-2 rounded-pill">
+                  <button className="ff_rubik fw_500 fs_md text-white bg_blue border-0 py-lg-3 px-lg-4 p-2 mt-2 rounded-pill">
                     Try for FREE
                     <svg
-                      className="ms-4"
+                      className="ms-lg-4 ms-2"
                       width="32"
                       height="32"
                       viewBox="0 0 32 32"

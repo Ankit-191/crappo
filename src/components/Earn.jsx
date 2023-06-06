@@ -5,8 +5,8 @@ import Btnblue from "./Btnblue";
 const Earn = () => {
   return (
     <>
-      <section className="bg_black pt-5 h_457 position-relative">
-        <Container className="container pt-lg-5">
+      <section className="bg_black pt-5 h_430 position-relative">
+        <Container className="container pt-lg-5 pt-4">
           <div className="text-center">
             <p className="ff_rubik fw_700 fs_4xl text-white">
               Check how much you can earn

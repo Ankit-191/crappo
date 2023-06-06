@@ -5,7 +5,7 @@ const Btnblue = (props) => {
     <>
       <a
         href="#"
-        className="ff_rubik fw_500 fs_base text-white padding_14_32 bg_blue rounded-pill btnhover"
+        className="ff_rubik fw_500 fs_base text-white padding_16_32 bg_blue rounded-pill btnhover"
       > {props.textbtn} </a>
     </>
   );

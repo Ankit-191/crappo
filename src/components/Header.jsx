@@ -15,9 +15,9 @@ const Header = () => {
   }
   return (
     <>
-      <section className="bg_black  ">
+      <section className="bg_black">
         <Container>
-          <div className="d-flex justify-content-between py-5">
+          <div className="d-flex justify-content-between py-lg-5 py-4">
             <div className="d-flex align-items-center gap-3">
               <img src={logo} alt="crappo" />
               <a href="#" className="ff_inter fw_600 fs_md text-white">
@@ -31,32 +31,33 @@ const Header = () => {
             </div>
             <div
               className={`d-flex align-items-center justify-content-center phone ${
-                head ? "" : "left_0 justify-content-center"
+                head ? "" : "left_0 text-center"
               }`}
+              onClick={() => sethead(true)}
             >
               <ul className="d-flex gap_32 mt-1 flex-column flex-lg-row headhover">
-                <li>
+                <li onClick={() => sethead(true)}>
                   <a href="#" className="ff_rubik fw_400 fs_base text-white">
                     Products
                   </a>
                 </li>
-                <li>
+                <li onClick={() => sethead(true)}>
                   <a href="#" className="ff_rubik fw_400 fs_base text-white">
                     Features
                   </a>
                 </li>
-                <li>
+                <li onClick={() => sethead(true)}>
                   <a href="#" className="ff_rubik fw_400 fs_base text-white">
                     About
                   </a>
                 </li>
-                <li>
+                <li onClick={() => sethead(true)}>
                   <a href="#" className="ff_rubik fw_400 fs_base text-white">
                     Contact
                   </a>
                 </li>
                 <ul className="d-flex flex-column flex-lg-row gap-4 ps-0 ps-lg-4">
-                  <li>
+                  <li onClick={() => sethead(true)}>
                     <a
                       href="#"
                       className="ff_rubik fw_400 fs_base text-white me-lg-3 me-0"
