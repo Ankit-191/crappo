@@ -395,7 +395,7 @@
     position: relative;
   }
   .h_100vh {
-    height: 100vh;
+    min-height: 100vh;
   }
   .h_100 {
     height: 100%;

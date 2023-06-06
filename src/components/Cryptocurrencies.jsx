@@ -7,7 +7,7 @@ import Slider from "react-slick";
 
 const Cryptocurrencies = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -19,7 +19,7 @@ const Cryptocurrencies = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -28,7 +28,7 @@ const Cryptocurrencies = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
     ],
@@ -137,7 +137,7 @@ const Cryptocurrencies = () => {
           <Slider {...settings} ref={arrow}>
             <div>
               <div className="p-3 p-lg-5 mx-md-3 d-flex flex-column align-items-center text-center cardbr_16 m-2 currenciescard">
-                <img src={bitcoin} alt="bitcoin"/>
+                <img src={bitcoin} alt="bitcoin" />
                 <p className="mt-5 ff_rubik fw_700 fs_3xl clr_black">
                   Bitcoin
                   <span className="fw_500 fs_md clr_neturalgray4 ms-2">
@@ -307,7 +307,7 @@ const Cryptocurrencies = () => {
               >
                 <path
                   d="M2.33317 14.6665H20.9498L12.8165 22.7999C12.1665 23.4499 12.1665 24.5165 12.8165 25.1665C13.4665 25.8165 14.5165 25.8165 15.1665 25.1665L26.1498 14.1832C26.7998 13.5332 26.7998 12.4832 26.1498 11.8332L15.1832 0.833203C14.5332 0.183203 13.4832 0.183203 12.8332 0.833203C12.1832 1.4832 12.1832 2.5332 12.8332 3.1832L20.9498 11.3332H2.33317C1.4165 11.3332 0.666504 12.0832 0.666504 12.9999C0.666504 13.9165 1.4165 14.6665 2.33317 14.6665Z"
-                  fill="#454749"
+                  fill="#3671E9"
                 />
               </svg>
             </span>
@@ -321,7 +321,7 @@ const Cryptocurrencies = () => {
               >
                 <path
                   d="M2.33317 14.6665H20.9498L12.8165 22.7999C12.1665 23.4499 12.1665 24.5165 12.8165 25.1665C13.4665 25.8165 14.5165 25.8165 15.1665 25.1665L26.1498 14.1832C26.7998 13.5332 26.7998 12.4832 26.1498 11.8332L15.1832 0.833203C14.5332 0.183203 13.4832 0.183203 12.8332 0.833203C12.1832 1.4832 12.1832 2.5332 12.8332 3.1832L20.9498 11.3332H2.33317C1.4165 11.3332 0.666504 12.0832 0.666504 12.9999C0.666504 13.9165 1.4165 14.6665 2.33317 14.6665Z"
-                  fill="#454749"
+                  fill="#3671E9"
                 />
               </svg>
             </span>
