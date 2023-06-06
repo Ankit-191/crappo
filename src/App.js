@@ -9,6 +9,8 @@ import Cryptocurrencies from "./components/Cryptocurrencies";
 import Market from "./components/Market";
 import Startming from "./components/Startming";
 import Footer from "./components/Footer";
+import Detailed from "./components/Detailed";
+import Profit from "./components/Profit";
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
       <Earn />
       <Cryptocurrencies />
       <Market/>
+      <Detailed/>
+      <Profit/>
       <Startming/>
       <Footer/>
     </>

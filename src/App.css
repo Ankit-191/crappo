@@ -383,6 +383,7 @@
   left: 50%;
   z-index: -1;
 }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1248px !important;
@@ -406,8 +407,14 @@
   .w_80 {
     width: 80% !important;
   }
+  .translate_middley {
+    transform: translateY(-50%);
+  }
 }
 @media (min-width: 992px) {
+  .h_453 {
+    height: 453px;
+  }
   .beforeline::before {
     content: "";
     position: absolute;
