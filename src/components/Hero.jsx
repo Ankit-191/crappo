@@ -10,7 +10,7 @@ const Hero = () => {
         <Container className="container">
           <div className="d-xl-flex flex-column h_100vh">
             <Header />
-            <div className="flex-grow-1">
+            <div className="flex-grow-1 d-xl-flex align-items-xl-center">
               <Row className="align-items-center h_100 pb-lg-5">
                 <Col lg={6}>
                   <button className="ff_rubik fw_400 fs_base text-white border-0 rounded-pill pe-2 px-1 py-1 bg_lightblack mb-lg-4 mb-2">
