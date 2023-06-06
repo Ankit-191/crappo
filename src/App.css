@@ -389,6 +389,13 @@
 .h_80 {
   height: 80px;
 }
+.paymet img{
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.paymet img:hover{
+  transform: translateY(-4px);
+}
 @media (min-width: 1200px) {
   .container {
     max-width: 1248px !important;

@@ -86,7 +86,7 @@ const Footer = () => {
               <p className="ff_rubik fw_500 fs_3xl text-white">
                 We accept following payment systems
               </p>
-              <div className="d-flex gap-3">
+              <div className="d-flex gap-3 paymet">
                 <img src={visa} alt="visa" className="w-25" />
                 <img src={circle} alt="visa" className="w-25" />
                 <img src={bitcoin} alt="visa" className="w-25" />
