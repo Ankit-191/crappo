@@ -10,7 +10,7 @@ const Detailed = () => {
           <Row className="align-items-center h_453 flex-column-reverse flex-lg-row">
             <Col lg={6}>
               <div className="position_absolute start-0 translate_middley top-50 mw_710 mt-4 mt-lg-0">
-                <img src={details} alt="" className="w_80" />
+                <img src={details} alt="" className="w_80p" />
               </div>
             </Col>
             <Col lg={6}>

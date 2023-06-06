@@ -14,7 +14,7 @@ const Chosecrypto = () => {
           <Row className="py-lg-5">
             <Col md={6} lg={4}>
               <div className="d-flex gap-4 mt-3 mt-md-0">
-                <img src={DigitalCurrency} alt="Digital Currency Exchanged" />
+                <img src={DigitalCurrency} alt="Digital Currency Exchanged" className="w_80 h_80"/>
                 <div>
                   <p className="ff_rubik fw_700 fs_4xl text-white mb-1">$30B</p>
                   <p className="ff_rubik fw_400 fs_base clr_gray">
@@ -25,7 +25,7 @@ const Chosecrypto = () => {
             </Col>
             <Col md={6} lg={4}>
               <div className="d-flex gap-4 mt-3 mt-md-0">
-                <img src={Wallets} alt="Digital Currency Exchanged" />
+                <img src={Wallets} alt="Digital Currency Exchanged" className="w_80 h_80"/>
                 <div>
                   <p className="ff_rubik fw_700 fs_4xl text-white mb-1">10M+</p>
                   <p className="ff_rubik fw_400 fs_base clr_gray">
@@ -36,7 +36,7 @@ const Chosecrypto = () => {
             </Col>
             <Col md={12} lg={4}>
               <div className="d-flex gap-4 mt-3 mt-md-0">
-                <img src={Supported} alt="Digital Currency Exchanged" />
+                <img src={Supported} alt="Digital Currency Exchanged" className="w_80 h_80"/>
                 <div>
                   <p className="ff_rubik fw_700 fs_4xl text-white mb-1">195</p>
                   <p className="ff_rubik fw_400 fs_base clr_gray">
