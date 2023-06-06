@@ -445,6 +445,12 @@
     --fs-6xl: 50px;
     --fs-3xl: 30px;
   }
+  .left_64 {
+    left: 30px;
+  }
+  .right_56 {
+    right: 30px;
+  }
 }
 @media (max-width: 992px) {
   .phone {

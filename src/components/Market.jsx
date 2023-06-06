@@ -45,7 +45,7 @@ const Market = () => {
                   <p className=" ff_inter fw_500 fs_sm clr_info">+125%</p>
                 </div>
                 <img src={graph} alt="graph" className="w-100" />
-                <div className="d-flex gap-1 justify-content-between">
+                <div className="d-flex gap-2 justify-content-between">
                   <div className="cardbr_16 bg_increase py-4 px-3 position_absolutetrand left_64 w_178">
                     <p className="ff_inter fw_600 fs_xl text-white mb-1 mb-sm-4">
                       Increase in <br /> Trade
